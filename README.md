@@ -5,9 +5,9 @@
 # Shopping List
 An easy shopping list with VueJS.
 
- - First, clone the project to your own computer
-   * `$ git clone https://github.com/AdemCanCertel/shopping-list.git`
- - Download the project
-   * `npm install ` or `npm i`
- - Start the project
-   * `npm run compile:sass`
+ * First, clone the project to your own computer
+   - `$ git clone https://github.com/AdemCanCertel/shopping-list.git`
+ * Download the project
+   - `npm install ` or `npm i`
+ * Start the project
+   - `npm run compile:sass`

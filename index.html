@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+</html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Shopping List</title>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="js/index.js"></script>
+  <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+  
+  <div id="app">
+  <div id="myDIV" class="header">
+    <h2 style="margin:5px"> {{shoppinglist}} </h2>
+    <input type="text" id="myInput" placeholder="Add to my shopping list...">
+    <button onclick="newElement()"> {{add}} </button>
+  </div>
+</div>
+  
+  <ul id="myUL">
+
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        shoppinglist: 'Shopping List',
+        add: 'Add',
+      },
+      methods: {
+        humanizeURL: function (url) {
+          return url
+            .replace(/^https?:\/\//, '')
+            .replace(/\/$/, '')
+        }
+      }
+    })
+  </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "shopping-list",
+  "version": "1.0.0",
+  "description": "Shopping list project with VueJS.",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^6.0.0",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass style/index.scss style/index.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdemCanCertel/shopping-list.git"
+  },
+  "author": "AdemCan Certel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdemCanCertel/shopping-list/issues"
+  },
+  "homepage": "https://github.com/AdemCanCertel/shopping-list#readme"
+}

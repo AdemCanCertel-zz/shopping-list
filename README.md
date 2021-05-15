@@ -11,3 +11,4 @@ An easy shopping list with VueJS.
    - `npm install ` or `npm i`
  * Start the project
    - `npm run compile:sass`
+
